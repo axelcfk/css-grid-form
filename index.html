@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="leftSection">
+        <a href="">stockholm running club</a>
+        <h1 class="joinCommunity">join our community</h1>
+      </div>
+
+      <div class="rightSection">
+        <h2 class="signUp">sign up</h2>
+
+        <form action="https://httpbin.org/anything" method="post">
+          <div class="firstName">
+            <label for="firstName"></label>
+            <input
+              placeholder="first name"
+              type="text"
+              name="first name"
+              id="firstName"
+              required
+            />
+          </div>
+
+          <div class="lastName">
+            <label for="lastName"></label>
+            <input
+              placeholder="last name"
+              type="text"
+              name="last name"
+              id="lastName"
+              required
+            />
+          </div>
+
+          <div class="email">
+            <label for="email"></label>
+            <input
+              placeholder="e-mail"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div class="pass1">
+            <label for="pass1"></label>
+            <input
+              placeholder="create password"
+              type="password"
+              name="password1"
+              id="pass1"
+              required
+            />
+          </div>
+
+          <div class="pass2">
+            <label for="pass2"></label>
+            <input
+              placeholder="repeat password"
+              type="password"
+              name="password2"
+              id="pass2"
+              required
+            />
+          </div>
+          <div class="exp">
+            <label for="exp"></label>
+            <select name="experience" id="exp" required>
+              <option value="0">choose running experience</option>
+              <option value="beginner">beginner</option>
+              <option value="casual">casual runner</option>
+              <option value="avid">avid runner</option>
+              <option value="pro">up there with the pros</option>
+            </select>
+          </div>
+
+          <div class="checkboxContainer">
+            <label for="checkbox"> subscribe to our newsletter</label>
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="subscribe"
+              value="newsletter"
+            />
+          </div>
+
+          <div class="btnContainer">
+            <button class="btn" type="submit">join</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+/* Reset style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", serif;
+  color: #eff7f6;
+}
+
+/* Link style */
+a {
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/* Header style */
+.joinCommunity {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  grid-column: 2;
+}
+
+/* Page container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/578bc970ebbd1a6a91067209/1642160749432-RBRADRI7ET55VEI8U98C/Screenshot+2022-01-14+at+12.31.32.png?format=1000w);
+  background-size: cover;
+}
+
+/* Left section style */
+.leftSection {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Right section style */
+.rightSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.8);
+  color: black;
+  text-align: center;
+}
+
+.rightSection form {
+  gap: 15px;
+}
+
+/* Sign up title */
+.signUp {
+  font-size: 40px;
+  margin-top: 60px;
+  grid-column: 2;
+}
+
+/* Form style */
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1 / span 3;
+  gap: 10px;
+}
+
+/* Form input style */
+input {
+  height: 48px;
+  font-size: 24px;
+  width: 90%;
+  font-family: "Young Serif", serif;
+  border-radius: 8px;
+  border-style: none;
+  background: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: #bbbbbb;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  background-color: #f2f3f1;
+  border-radius: 5px;
+}
+
+/* Select style */
+select {
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  border-radius: 20px;
+  border-style: none;
+  border: none;
+  background: none;
+  outline: none;
+  color: black;
+}
+
+/* Button container */
+.btnContainer {
+  grid-column: 2;
+}
+
+/* Checkbox container style */
+.checkboxContainer {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  grid-column: 2;
+}
+
+/* grid row/column styling */
+.firstName {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.lastName {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+
+.email {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
+.pass1 {
+  grid-column: 1 / span 3;
+  grid-row: 4;
+}
+
+.pass2 {
+  grid-column: 1 / span 3;
+  grid-row: 5;
+}
+
+.exp {
+  grid-column: 1 / span 3;
+  grid-row: 6;
+}
+
+.checkbox {
+  grid-column: 1 / span 3;
+  grid-row: 7;
+}
+
+.btn {
+  margin-bottom: 70px;
+  grid-column: 2;
+  grid-row: 9;
+}
+
+/* checkbox style */
+.checkbox {
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* Button style */
+.btn {
+  height: 48px;
+  width: 150px;
+  background-color: #373f51;
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  border-radius: 50px;
+  color: #eee;
+  cursor: pointer;
+  border-style: solid;
+}
