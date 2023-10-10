@@ -156,6 +156,13 @@ select {
   grid-row: 7;
 }
 
+.gender {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 8;
+}
+
 .btn {
   margin-bottom: 70px;
   grid-column: 2;
